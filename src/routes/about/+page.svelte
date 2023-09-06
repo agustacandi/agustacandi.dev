@@ -30,4 +30,14 @@
 		<li><a href="https://instagram.com/agustcandi">Instagram</a></li>
 		<li><a href="https://social.gnuweeb.org/@stardust">Mastodon</a></li>
 	</ul>
+
+	<h3>Other:</h3>
+	<ul>
+		<li>
+			<img
+				src="https://discord.c99.nl/widget/theme-3/522676048681238532.png"
+				alt="Discord Banner"
+			/>
+		</li>
+	</ul>
 </MainLayout>
