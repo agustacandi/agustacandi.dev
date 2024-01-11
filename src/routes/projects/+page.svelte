@@ -21,7 +21,5 @@
 		<li>Enterprise Risk Management System Bank Syariah Indonesia</li>
 		<li>Paradoc Indonesia</li>
 		<li>Pemilu.AI</li>
-		<li>PDAM Go Purabaya</li>
-		<li>Workorder PDAM Go Purabaya</li>
 	</ul>
 </MainLayout>
