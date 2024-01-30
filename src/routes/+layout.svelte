@@ -1,20 +1,21 @@
 <script lang="ts">
-	import './style.scss';
-	const date = new Date();
+	import { onMount } from 'svelte';
+	import '../app.css';
+	let loader = true;
+
+	onMount(() => {
+		setTimeout(() => {
+			loader = false;
+		}, 1000);
+	});
 </script>
 
-<p>Unfortunately css can't be loaded!</p>
-<ul>
-	<li><a href="/">Home</a></li>
-	<li><a href="/projects">Projects</a></li>
-	<li><a href="/about">About</a></li>
-</ul>
-
-<slot />
-
-<footer>
-	<p>Copyright © {date.getFullYear()}</p>
-</footer>
-
-<style lang="scss">
-</style>
+{#if loader}
+	<main class="h-screen grid place-items-center">
+		<div class="animate-spin rounded-full h-20 w-20 border-t-2 border-b-2 border-black"></div>
+	</main>
+{:else}
+	<main class="lg:w-[700px] px-5 md:px-10 lg:px-0 min-h-screen mx-auto">
+		<slot />
+	</main>
+{/if}

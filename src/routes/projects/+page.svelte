@@ -1,10 +1,32 @@
 <script lang="ts">
-	import MainLayout from '../../lib/components/MainLayout.svelte';
+	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import MainLayout from '$lib/components/MainLayout.svelte';
+	import { projects } from '$lib/data/projects';
+	import Headline from '$lib/components/Headline.svelte';
+	import UnderDevelopment from '$lib/components/UnderDevelopment.svelte';
 </script>
 
 <MainLayout title="Projects">
-	<h3>Solo Project</h3>
-	<ul>
+	<UnderDevelopment />
+	<!-- <Headline title="Solo Project" />
+	<div class="grid grid-cols-2 gap-3 mb-3">
+		{#each projects as project}
+			<ProjectCard title={project.name} description={project.description} />
+		{/each}
+	</div>
+	<Headline title="School Project" />
+	<div class="grid grid-cols-2 gap-3 mb-3">
+		{#each projects as project}
+			<ProjectCard title={project.name} description={project.description} />
+		{/each}
+	</div>
+	<Headline title="Team Project" />
+	<div class="grid grid-cols-2 gap-3 mb-3">
+		{#each projects as project}
+			<ProjectCard title={project.name} description={project.description} />
+		{/each}
+	</div> -->
+	<!-- <ul>
 		<li>Twibbon Generator</li>
 	</ul>
 
@@ -21,5 +43,5 @@
 		<li>Enterprise Risk Management System Bank Syariah Indonesia</li>
 		<li>Paradoc Indonesia</li>
 		<li>Pemilu.AI</li>
-	</ul>
+	</ul> -->
 </MainLayout>

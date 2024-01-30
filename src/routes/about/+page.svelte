@@ -1,9 +1,11 @@
 <script lang="ts">
+	import UnderDevelopment from '$lib/components/UnderDevelopment.svelte';
 	import MainLayout from '../../lib/components/MainLayout.svelte';
 </script>
 
 <MainLayout>
-	<img src="https://avatars.githubusercontent.com/u/54197587?v=4" alt="GitHub Avatar" />
+	<UnderDevelopment />
+	<!-- <img src="https://avatars.githubusercontent.com/u/54197587?v=4" alt="GitHub Avatar" />
 
 	<p>
 		Hello, my name is <b>Candi Agusta Islamiano</b>. I'm just an ordinary student who can be found
@@ -39,5 +41,5 @@
 				alt="Discord Banner"
 			/>
 		</li>
-	</ul>
+	</ul> -->
 </MainLayout>

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Momentum';
+    src: url('./lib/fonts/MonumentExtended-Ultrabold.otf');
+}
+
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('./lib//fonts/IBMPlexMono-Regular.otf');
+}
