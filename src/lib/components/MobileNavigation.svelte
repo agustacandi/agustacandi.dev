@@ -7,7 +7,7 @@
 </script>
 
 <nav
-	class="absolute left-0 right-0 bottom-0 dark:bg-black bg-white w-full border-t-2 dark:border-white border-black p-2"
+	class="fixed left-0 right-0 bottom-0 dark:bg-black bg-white border-t-2 dark:border-white border-black py-2"
 >
 	<ul class="flex justify-around">
 		{#each navigations as navigation, i}
