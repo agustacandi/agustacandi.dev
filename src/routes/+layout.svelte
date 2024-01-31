@@ -15,7 +15,7 @@
 		<div class="animate-spin rounded-full h-20 w-20 border-t-2 border-b-2 border-black"></div>
 	</main>
 {:else}
-	<main class="lg:w-[700px] px-5 md:px-10 lg:px-0 min-h-screen mx-auto">
+	<main class="lg:w-[700px] md:w-[700px] w-full px-5 md:px-10 lg:px-0 min-h-screen mx-auto">
 		<slot />
 	</main>
 {/if}

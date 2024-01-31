@@ -3,13 +3,13 @@
 </script>
 
 <MainLayout title="Home">
-	<div class="md:flex md:justify-center md:items-center md:my-28 md:space-x-10">
+	<div class="md:flex md:justify-center my-10 md:items-center md:my-28 md:space-x-10">
 		<img
-			class="w-52 h-52 rounded-full border-4 dark:border-white border-black shadow"
+			class="w-52 h-52 mx-auto rounded-full border-4 dark:border-white border-black shadow"
 			src="https://avatars.githubusercontent.com/u/54197587?v=4"
 			alt="Avatar"
 		/>
-		<div>
+		<div class="text-center md:text-left">
 			<h2 class="font-momentum text-2xl">CANDI <br />AGUSTA <br />ISLAMIANO</h2>
 			<p class="font-ibmPlex my-2">Web/Mobile Developer</p>
 			<a
