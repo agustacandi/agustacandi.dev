@@ -3,7 +3,7 @@
 </script>
 
 <MainLayout title="Home">
-	<div class="md:flex md:justify-center my-10 md:items-center md:my-28 md:space-x-10">
+	<div class="md:flex md:justify-center my-10 md:items-center md:my-40 md:space-x-10">
 		<img
 			class="w-52 h-52 mx-auto md:mx-0 rounded-full border-4 dark:border-white border-black shadow"
 			src="https://avatars.githubusercontent.com/u/54197587?v=4"
